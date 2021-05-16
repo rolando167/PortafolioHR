@@ -1,0 +1,114 @@
+ :root{
+  --dark: #0a0a0a;
+  --dark-x: #111111;
+  --dark-xx: #222222;
+  --dark-xxx: #dadada;
+  --light: #ffffff;
+  --primary: #ff7069;
+  --primary-x: #fe3051;
+  --muted: #a1b0bf;
+  --header-background: hsla(0,0%,100%,0.8);
+}
+
+ 
+body{
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.Header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #ffffff, #ffffff42   100%), url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-light{
+    background-color: var(--light) !important;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+}
+
+.bg-light1{
+    background-color: var(--header-background) !important;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-xxx) ;
+}
+
+
+@media (min-width: 768px){
+    .bg-dark{
+        background-color: transparent!important;
+       
+    }
+}
+
+
+.visibilityMain{
+  visibility: hidden;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; transition: transform 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; 
+}
+
+.section-padding-work {
+    padding: 130px 0 110px 0;
+}
+
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+
+body .Header{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  transition: opacity 1.5s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+ 
