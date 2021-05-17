@@ -79,7 +79,7 @@ const renderDataPortafolio = () =>{
 
 }
 
-alert('nio');
+
 renderDataPortafolio();
 
 // ----------------------
