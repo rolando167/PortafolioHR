@@ -62,6 +62,7 @@ const renderDataPortafolio = () =>{
 	mainDivPortafolio.innerHTML= '';
 	// ----------------
 	portafolioWork.forEach((portafolio, index) => {
+		alert(index);
 		const appendDivImage = document.createElement('div');
 		appendDivImage.className = 'col-12 col-sm-4 mb-5'
 		// -----
