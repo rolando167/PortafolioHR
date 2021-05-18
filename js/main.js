@@ -60,7 +60,6 @@ const portafolioWork =[
 
 const renderDataPortafolio = () =>{
 	mainDivPortafolio.innerHTML= '';
-	alert('ok');
 	// ----------------
 	portafolioWork.forEach((portafolio, index) => {
 		const appendDivImage = document.createElement('div');
