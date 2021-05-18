@@ -76,8 +76,17 @@ const renderDataPortafolio = () =>{
 
 }
 
-renderDataPortafolio();
+const renderTextFooter = () =>{
+	let footerText =  document.querySelector('p.footerText');
+	var d = new Date();
+	var year = d.getFullYear();
+	footerText.innerHTML = 'Diseñado por Rolando H. - ' + year;
+}
 
+// ----------------------
+
+renderDataPortafolio();
+renderTextFooter();
 // ----------------------
 
 
