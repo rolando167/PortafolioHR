@@ -1,8 +1,5 @@
-alert('caso');
-
 
 let nav = document.getElementById('menSoc');
-
 
 
 function menus(){
@@ -80,7 +77,6 @@ const renderDataPortafolio = () =>{
 	});
 
 }
-
 
 renderDataPortafolio();
 
