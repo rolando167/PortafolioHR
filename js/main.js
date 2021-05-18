@@ -1,5 +1,5 @@
 
-let nav = document.getElementById('menSoc');
+var nav = document.getElementById('menSoc');
 
 
 function menus(){
@@ -46,7 +46,7 @@ window.onload = function() {
 
 // ----------------------
 
-const mainDivPortafolio = document.querySelector('#mainDivPortafolio');
+var mainDivPortafolio = document.querySelector('#mainDivPortafolio');
 
 const portafolioWork =[
 {'titulo': 'Higorr', 'route':'img/portafolio/work1.jpg' }
