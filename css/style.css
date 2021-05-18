@@ -27,21 +27,24 @@ body{
 }
 
 .Header{
-
-  
+ 
 
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(180deg, #ffffff, #ffffff42   100%), url("../img/fondo1.jpg");
     position: relative;
-  
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
-
-  background-position-x: 0%, 0%;
-    background-position-y: 0%, 0%;
+   background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 
 }
 
