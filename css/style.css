@@ -10,6 +10,16 @@
   --header-background: hsla(0,0%,100%,0.8);
 }
 
+/*===== Margenes =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
  
 body{
     background-color: #eeeeee;
@@ -111,4 +121,7 @@ body .Header{
     }
 }
 
- 
+
+.footer__icon{
+    margin: 0 var(--mb-2);
+ }

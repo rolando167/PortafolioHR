@@ -11,24 +11,22 @@ function menus(){
 	 nav.className = ('bg-light1');
 	 nav.style.transition = '1s';
 
- }else{
-   nav.classList.remove('bg-light1');
-   nav.className = ('bg-light'); 
-   nav.style.transition = '1s';
-}
+	 }else{
+	   nav.classList.remove('bg-light1');
+	   nav.className = ('bg-light'); 
+	   nav.style.transition = '1s';
+	}
 
 }
 
 window.addEventListener('load', function(){
 	menus();    
-	
 });
 
 
 window.addEventListener('scroll', function(){
 	// console.log(window.pageYOffset);
 	menus();
-	
 });
 
 /* ---- animations ---- */
