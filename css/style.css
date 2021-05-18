@@ -28,7 +28,6 @@ body{
 
 .Header{
  
-
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(180deg, #ffffff, #ffffff42   100%), url("../img/fondo1.jpg");
@@ -37,10 +36,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
- 
     background-attachment: scroll, scroll;
-   
-
+    background-size: cover;
 }
 
 
