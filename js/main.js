@@ -49,7 +49,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#navbar-main'
-})
+});
 
 
 /* ---- animations ---- */
